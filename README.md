@@ -40,3 +40,10 @@ It is, however, possible to increase the size of your code quite significantly w
 ```
 browserify . --standalone test | uglifyjs | wc -c
 ```
+
+Please note, while I'm asking you to keep an eye on the resulting size of a package in the browser, I'm begging you not to obsess over it.
+
+__NEVER:__
+
+- trade away better functionality for a package/module with fewer bytes.
+- start any kind of thorough size optimization too early. (As a side note, I'm only writing this guide after now beginning to seriously optimize the size of rtc.io packages now - which is almost 12 months after the first commit on some of the packages).
