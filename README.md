@@ -46,4 +46,6 @@ Please note, while I'm asking you to keep an eye on the resulting size of a pack
 __NEVER:__
 
 - trade away better functionality for a package/module with fewer bytes.
-- start any kind of thorough size optimization too early. (As a side note, I'm only writing this guide after now beginning to seriously optimize the size of rtc.io packages now - which is almost 12 months after the first commit on some of the packages).
+- start any kind of thorough size optimization too early.
+
+  _(As a side note, I'm only writing this guide after now beginning to seriously optimize the size of [rtc.io](https://github.com/rtc-io) packages now - which is almost 12 months after the first commit on some of the packages)_.
