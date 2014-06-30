@@ -4,7 +4,7 @@ First, and foremost:
 
 ## Use Browserify
 
-I'm a massive fan of [browserify](https://github.com/substack/node-browserify). If I'm telling people to do __just one thing__ to improve their own experience with writing JS for a browser environment, it's to use browserify (ideally in conjuction with a tool like [beefy](https://github.com/chrisdickinson/beefy)).
+I'm a massive fan of [browserify](https://github.com/substack/node-browserify). If I'm telling people to __do just one thing to improve their own experience with writing JS for a browser environment__, it's to use browserify (ideally in conjuction with a tool like [beefy](https://github.com/chrisdickinson/beefy)).
 
 As it's evolved, browserify has continued to improve as a tool.  Actually, let's call it a weapon.  Now at major version 4, browserify is a sharp, well crafted weapon that allows even a beginner swordsperson to do real damage to the enemies of efficient and modular clientside code.  There is a lot to know though, and as you journey with your trusty blade it's important to know some more advanced moves.
 
