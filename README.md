@@ -33,7 +33,9 @@ At a raw code level, the two files above are around 100 bytes.  When browserifie
 
 ## Keeping an Eye on the Size
 
-One of the main benefits of using browserify is that it uses static analysis to determine what modules should be included into your code.  Through using this technique browserify provides a low-friction approach to bundling code that feels very "node-like" for a browser environment.  It is possible to increase the size of your code quite significantly with just a couple of `require` statements.  I will go into more detail on the main offenders later, but for now let's get into the habit of running the following command in any package that we are targeting for browser distribution:
+One of the main benefits of using browserify is that it uses static analysis to determine what modules should be included into your code.  Through using this technique browserify provides a low-friction approach to bundling code that feels very "node-like" for a browser environment.
+
+It is, however, possible to increase the size of your code quite significantly with just a couple of `require` statements.  I will go into more detail on the main offenders later, but for now I would simply recommend getting into the habit of running the following command in any package that we are targeting for browser distribution:
 
 ```
 browserify . --standalone test | uglifyjs | wc -c
